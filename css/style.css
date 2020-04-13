@@ -416,12 +416,71 @@ background-color: #f5f5f5;
 }
 .project h3{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 43px;
+    font-size: 30px;
+    color: #1d1d1d;
 }
 .project p{
     font-family: 'Nunito Sans', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: #787878;
+
 }
 
+.project input{
+    width: 48%;
+    height: 50px;
 
+}
+
+.project__need{
+    max-width: 670px;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.project__your{
+    justify-content: space-between;
+    display: flex;
+}
+
+.project  input {
+    resize: none;
+    border: none;
+    margin-bottom: 27px;
+    padding-left: 20px;
+    color: #787878;
+    font-size: 15px;
+
+
+}
+.project form>input{
+    width: 100%;
+
+}
+.project textarea{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: #787878;
+    font-size: 15px;
+    resize: none;
+    border: none;
+    height: 170px;
+    width: 100%;
+
+
+}
+
+.project button{
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #10c9c3;
+    padding: 25px 55px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
